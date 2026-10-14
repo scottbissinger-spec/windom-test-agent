@@ -1,0 +1,9 @@
+{
+  "client_id": "https://scottbissinger-spec.github.io/windom-test-agent/agent.json",
+  "client_name": "Windom Test Agent",
+  "jwks_uri": "https://scottbissinger-spec.github.io/windom-test-agent/jwks.json",
+  "redirect_uris": [
+    "https://scottbissinger-spec.github.io/windom-test-agent/callback.html"
+  ],
+  "token_endpoint_auth_method": "private_key_jwt"
+}

@@ -1,0 +1,15 @@
+<!doctype html>
+<html lang="en">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex">
+<title>Windom Test Agent</title>
+<body style="font: 16px/1.5 system-ui, sans-serif; max-width: 34rem; margin: 3rem auto; padding: 0 1rem;">
+<p id="status">Finishing sign-in with the test runner on this computer.</p>
+<p>If nothing happens, the test runner is not running here. Sign-in was not completed, and nothing was shared.</p>
+<script>
+  // Hand the one-time result to the runner listening on this computer only.
+  location.replace("http://127.0.0.1:3411/callback" + location.search);
+</script>
+</body>
+</html>
