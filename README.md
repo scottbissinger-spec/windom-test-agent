@@ -7,4 +7,8 @@ Personal Agent Protocol sign-in from the outside.
 - `jwks.json`: its public signing key
 - `callback.html`: where sign-in returns the browser; it hands the result to the test runner on the tester's own computer
 
-There is no private data here. The signing key's private half never leaves the tester's computer.
+`demo/` holds the same three documents for a second agent, Agent Demo: a chat where Claude acts as
+someone's personal agent and connects to Windom Sports. Its `callback.html` returns the browser to
+that chat.
+
+There is no private data here. The private half of each signing key is never published.
